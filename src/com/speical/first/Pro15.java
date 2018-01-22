@@ -5,14 +5,14 @@ import java.util.Scanner;
 /** 
 * root(n,k)
 * 
-* ÓĞÊıÑ§ÍÆµ¼
+* æœ‰æ•°å­¦æ¨å¯¼
 * http://www.acmerblog.com/jiudu-1085-2256.html
 * @author special
-* @date 2017Äê12ÔÂ21ÈÕ ÏÂÎç8:16:06
+* @date 2017å¹´12æœˆ21æ—¥ ä¸‹åˆ8:16:06
 */
 public class Pro15 {
 	/**
-	 * ¿ìËÙÃİÇó·¨
+	 * å¿«é€Ÿå¹‚æ±‚æ³•
 	 * @param x
 	 * @param y
 	 * @param mod

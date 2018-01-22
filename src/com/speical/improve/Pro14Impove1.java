@@ -1,8 +1,8 @@
 package com.speical.improve;
 /** 
-* ÆäÊµ¾ÍÊÇ½â 100a + 110b + 12c = 532
+* å…¶å®å°±æ˜¯è§£ 100a + 110b + 12c = 532
 * @author special
-* @date 2017Äê12ÔÂ21ÈÕ ÏÂÎç7:25:39
+* @date 2017å¹´12æœˆ21æ—¥ ä¸‹åˆ7:25:39
 */
 public class Pro14Impove1 {
 	private static final int SUM = 532;

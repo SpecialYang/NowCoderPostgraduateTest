@@ -3,10 +3,10 @@ package com.speical.first;
 import java.util.Scanner;
 
 /** 
-* ´úÀí·şÎñÆ÷£¬³¬Ê±´úÂë
-* ¿´À´²»ÄÜdfs
+* ä»£ç†æœåŠ¡å™¨ï¼Œè¶…æ—¶ä»£ç 
+* çœ‹æ¥ä¸èƒ½dfs
 * @author special
-* @date 2017Äê12ÔÂ19ÈÕ ÉÏÎç10:15:23
+* @date 2017å¹´12æœˆ19æ—¥ ä¸Šåˆ10:15:23
 */
 public class Pro03 {
 	private static String[] proxys;

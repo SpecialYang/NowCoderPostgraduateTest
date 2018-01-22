@@ -3,9 +3,9 @@ package com.speical.improve;
 import java.util.Scanner;
 
 /** 
-* ÓÃÒ»¸öÇ°×ººÍ´ú±ícosts  ¼ÇÂ¼¹±Ï×
+* ç”¨ä¸€ä¸ªå‰ç¼€å’Œä»£è¡¨costs  è®°å½•è´¡çŒ®
 * @author special
-* @date 2017Äê12ÔÂ19ÈÕ ÏÂÎç2:51:53
+* @date 2017å¹´12æœˆ19æ—¥ ä¸‹åˆ2:51:53
 */
 public class Pro05Improve2 {
 	private static final int[] costs = {

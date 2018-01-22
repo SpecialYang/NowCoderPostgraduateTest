@@ -7,7 +7,7 @@ import java.util.Scanner;
 /** 
 *
 * @author special
-* @date 2017Äê12ÔÂ19ÈÕ ÏÂÎç1:58:46
+* @date 2017å¹´12æœˆ19æ—¥ ä¸‹åˆ1:58:46
 */
 public class Pro05 {
 	private static final Map<Character,Integer> map 

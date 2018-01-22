@@ -3,12 +3,12 @@ package com.speical.first;
 import java.util.Scanner;
 
 /** 
-* ÇòµÄ°ë¾¶ºÍÌå»ı
+* çƒçš„åŠå¾„å’Œä½“ç§¯
 * 
-* Å·¼¸ÀïµÃ¿Õ¼ä¾àÀëÇó·¨
-* ÇòµÄÌå»ıÇó·¨
+* æ¬§å‡ é‡Œå¾—ç©ºé—´è·ç¦»æ±‚æ³•
+* çƒçš„ä½“ç§¯æ±‚æ³•
 * @author special
-* @date 2017Äê12ÔÂ20ÈÕ ÉÏÎç11:11:30
+* @date 2017å¹´12æœˆ20æ—¥ ä¸Šåˆ11:11:30
 */
 public class Pro09 {
 	private static double PI = Math.acos(-1);

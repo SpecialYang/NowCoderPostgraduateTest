@@ -3,11 +3,11 @@ package com.speical.first;
 import java.util.Scanner;
 
 /** 
-* °ÑÊı·Ö³É2µÄÃÛµÄ×é³É²¿·Ö
+* æŠŠæ•°åˆ†æˆ2çš„èœœçš„ç»„æˆéƒ¨åˆ†
 * 
-* dfsÕ»Òç³ö£¡
+* dfsæ ˆæº¢å‡ºï¼
 * @author special
-* @date 2017Äê12ÔÂ20ÈÕ ÉÏÎç8:51:11
+* @date 2017å¹´12æœˆ20æ—¥ ä¸Šåˆ8:51:11
 */
 public class Pro07 {
 	private static int n;

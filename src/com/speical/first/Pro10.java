@@ -3,12 +3,12 @@ package com.speical.first;
 import java.util.Scanner;
 
 /** 
-* ¶ş²æÊ÷µÄÏÈĞò±éÀú±äÎªÖĞĞò±éÀú
+* äºŒå‰æ ‘çš„å…ˆåºéå†å˜ä¸ºä¸­åºéå†
 * 
-* µİ¹é¹¹½¨
-* µİ¹éÖĞĞò±éÀú
+* é€’å½’æ„å»º
+* é€’å½’ä¸­åºéå†
 * @author special
-* @date 2017Äê12ÔÂ20ÈÕ ÏÂÎç1:30:59
+* @date 2017å¹´12æœˆ20æ—¥ ä¸‹åˆ1:30:59
 */
 public class Pro10 {
 	
@@ -26,14 +26,14 @@ public class Pro10 {
 		
 		public BinaryTree(String str){ this.str = str; index = 0; }
 		/**
-		 * Íâ²¿µ÷ÓÃÕâ¸ö½Ó¿Ú
+		 * å¤–éƒ¨è°ƒç”¨è¿™ä¸ªæ¥å£
 		 */
 		public void build(){
 			this.root = buildTree();
 		}
 		/**
-		 * buildµÄË½ÓĞ¸¨Öú·½·¨
-		 * ×¢ÒâÕâÀïÇÉÃîµÄµİ¹é
+		 * buildçš„ç§æœ‰è¾…åŠ©æ–¹æ³•
+		 * æ³¨æ„è¿™é‡Œå·§å¦™çš„é€’å½’
 		 * @return
 		 */
 		private Node buildTree(){
@@ -67,7 +67,7 @@ public class Pro10 {
 
 }
 
-//×Ô¼ºÔ­ÏÈĞ´µÄÔü´úÂë
+//è‡ªå·±åŸå…ˆå†™çš„æ¸£ä»£ç 
 /*
 public void buildTree() {
 		this.root = new Node(str.charAt(size++));

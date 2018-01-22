@@ -5,7 +5,7 @@ import java.util.Scanner;
 /** 
 *
 * @author special
-* @date 2017Äê12ÔÂ20ÈÕ ÉÏÎç9:55:03
+* @date 2017å¹´12æœˆ20æ—¥ ä¸Šåˆ9:55:03
 */
 public class Pro08 {
 	

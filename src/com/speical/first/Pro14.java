@@ -1,10 +1,10 @@
 package com.speical.first;
 /** 
-* Çóabc + bcc = 532
+* æ±‚abc + bcc = 532
 * 
-* dfs,¿ÉÒÔ×ª»»³É3ÖØÑ­»·ÓÅ»¯
+* dfs,å¯ä»¥è½¬æ¢æˆ3é‡å¾ªç¯ä¼˜åŒ–
 * @author special
-* @date 2017Äê12ÔÂ21ÈÕ ÏÂÎç5:47:55
+* @date 2017å¹´12æœˆ21æ—¥ ä¸‹åˆ5:47:55
 */
 public class Pro14 {
 	private static final int SUM = 532;

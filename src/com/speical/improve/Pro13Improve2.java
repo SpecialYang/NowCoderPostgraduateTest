@@ -3,10 +3,10 @@ package com.speical.improve;
 import java.util.Scanner;
 
 /** 
-* µİ¹é
-* Ã¿Ò»¸öÓĞÆ±ÒªÃ´Ñ¡£¬ÒªÃ´²»Ñ¡
+* é€’å½’
+* æ¯ä¸€ä¸ªæœ‰ç¥¨è¦ä¹ˆé€‰ï¼Œè¦ä¹ˆä¸é€‰
 * @author special
-* @date 2017Äê12ÔÂ21ÈÕ ÏÂÎç5:01:32
+* @date 2017å¹´12æœˆ21æ—¥ ä¸‹åˆ5:01:32
 */
 public class Pro13Improve2 {
 	private static int sum;

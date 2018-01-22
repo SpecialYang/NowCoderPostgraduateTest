@@ -3,9 +3,9 @@ package com.speical.first;
 import java.util.Scanner;
 
 /** 
-* ÇóÒ»¸öÊıµÄÔ¼Êı¸öÊı
+* æ±‚ä¸€ä¸ªæ•°çš„çº¦æ•°ä¸ªæ•°
 * @author special
-* @date 2017Äê12ÔÂ19ÈÕ ÉÏÎç9:39:28
+* @date 2017å¹´12æœˆ19æ—¥ ä¸Šåˆ9:39:28
 */
 public class Pro02 {
 	public static int getApproximate(int num){

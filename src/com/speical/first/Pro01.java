@@ -3,9 +3,9 @@ package com.speical.first;
 import java.util.Scanner;
 
 /** 
-* ³É¼¨ÅÅĞò
+* æˆç»©æ’åº
 * @author special
-* @date 2017Äê12ÔÂ18ÈÕ ÏÂÎç11:35:31
+* @date 2017å¹´12æœˆ18æ—¥ ä¸‹åˆ11:35:31
 */
 public class Pro01 {
 	private static String[] names;

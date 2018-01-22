@@ -3,37 +3,37 @@ package com.speical.improve;
 import java.util.Scanner;
 
 /** 
-* Ì°ĞÄ·¨Çó´úÀí·şÎñÆ÷
+* è´ªå¿ƒæ³•æ±‚ä»£ç†æœåŠ¡å™¨
 * 
-* Ã¿´Îµ½¶¼Ñ¡Ò»¸öµ±Ç°ÏÂÄÜ×ß×î³¤²½ÊıµÄ´úÀí·şÎñÆ÷
+* æ¯æ¬¡åˆ°éƒ½é€‰ä¸€ä¸ªå½“å‰ä¸‹èƒ½èµ°æœ€é•¿æ­¥æ•°çš„ä»£ç†æœåŠ¡å™¨
 * @author special
-* @date 2017Äê12ÔÂ19ÈÕ ÉÏÎç11:09:41
+* @date 2017å¹´12æœˆ19æ—¥ ä¸Šåˆ11:09:41
 */
 public class Pro03Improve1 {
 	private static String[] proxys;
 	private static String[] server;
 	
 	public static int getMinSteps(){
-		int currentServer = 0; //µ±Ç°´ı¿¼²ìµÄ·şÎñÆ÷
-		int currentProxy = -1; //µ±Ç°Ê¹ÓÃµÄ´úÀí·şÎñÆ÷
-		int maxStep = 0;       //´Ó´ı¿¼²ìµÄ·şÎñÆ÷³ö·¢ËùÄÜ×ßµÄ×î³¤²½Êı
-		int selectProxy = 0;  //¼ÇÂ¼×ß×î´óµÄ´úÀí·şÎñÆ÷
-		int count = 0;        //¼ÇÂ¼ĞèÒªÇĞ»»´úÀí·şÎñÆ÷µÄ´ÎÊı
+		int currentServer = 0; //å½“å‰å¾…è€ƒå¯Ÿçš„æœåŠ¡å™¨
+		int currentProxy = -1; //å½“å‰ä½¿ç”¨çš„ä»£ç†æœåŠ¡å™¨
+		int maxStep = 0;       //ä»å¾…è€ƒå¯Ÿçš„æœåŠ¡å™¨å‡ºå‘æ‰€èƒ½èµ°çš„æœ€é•¿æ­¥æ•°
+		int selectProxy = 0;  //è®°å½•èµ°æœ€å¤§çš„ä»£ç†æœåŠ¡å™¨
+		int count = 0;        //è®°å½•éœ€è¦åˆ‡æ¢ä»£ç†æœåŠ¡å™¨çš„æ¬¡æ•°
 		while(currentServer < server.length){
-			maxStep = 0;  // ¸üĞÂ×î´ó²½³¤Îª0
+			maxStep = 0;  // æ›´æ–°æœ€å¤§æ­¥é•¿ä¸º0
 			for(int i = 0; i < proxys.length; i++){
-				if(currentProxy != i){ //Ñ¡È¡Óëµ±Ç°´úÀí²»Ò»ÑùµÄ´úÀí
-					int j = currentServer; //µ±Ç°´ı¿¼²ìµÄ·şÎñÆ÷
+				if(currentProxy != i){ //é€‰å–ä¸å½“å‰ä»£ç†ä¸ä¸€æ ·çš„ä»£ç†
+					int j = currentServer; //å½“å‰å¾…è€ƒå¯Ÿçš„æœåŠ¡å™¨
 					for(; j < server.length; j++){
-						if(proxys[i].equals(server[j])){ //Èç¹û³åÍ»£¬´¦Àí
-							if(j - currentServer > maxStep){ //¼ÇÂ¼²½³¤×î´óµÄÊ±µÄÑ¡ÔñµÄ´úÀí
+						if(proxys[i].equals(server[j])){ //å¦‚æœå†²çªï¼Œå¤„ç†
+							if(j - currentServer > maxStep){ //è®°å½•æ­¥é•¿æœ€å¤§çš„æ—¶çš„é€‰æ‹©çš„ä»£ç†
 								maxStep = j - currentServer;
 								selectProxy = i;
 							}
 							break;
 						}
 					}
-					if(j == server.length){ //ÈôÑ­»·½áÊøµÄÊ±ºò£¬×ßÍêÁËËùÓĞµÄ·şÎñÆ÷£¬ºóÃæ¾Í²»ÓÃ±éÀúÆäËû´úÀí·şÎñÆ÷ÁË¡£
+					if(j == server.length){ //è‹¥å¾ªç¯ç»“æŸçš„æ—¶å€™ï¼Œèµ°å®Œäº†æ‰€æœ‰çš„æœåŠ¡å™¨ï¼Œåé¢å°±ä¸ç”¨éå†å…¶ä»–ä»£ç†æœåŠ¡å™¨äº†ã€‚
 						maxStep = j - currentServer;
 						selectProxy = i;
 						break;
@@ -41,9 +41,9 @@ public class Pro03Improve1 {
 				}
 			}
 			if(maxStep == 0){ return -1; }
-			if(currentProxy != -1) count++; //²»ÊÇµÚÒ»ÇĞ»»´úÀí¾Í¼ÆÊı
-			currentServer += maxStep; //¸üĞÂµ±Ç°´ı¿¼²ìµÄ·şÎñÆ÷
-			currentProxy = selectProxy; //¸üĞÂÒÑÑ¡ÔñµÄ¾Ö²¿×îÓÅµÄ´úÀí
+			if(currentProxy != -1) count++; //ä¸æ˜¯ç¬¬ä¸€åˆ‡æ¢ä»£ç†å°±è®¡æ•°
+			currentServer += maxStep; //æ›´æ–°å½“å‰å¾…è€ƒå¯Ÿçš„æœåŠ¡å™¨
+			currentProxy = selectProxy; //æ›´æ–°å·²é€‰æ‹©çš„å±€éƒ¨æœ€ä¼˜çš„ä»£ç†
 		}
 		return count;
 	}

@@ -7,7 +7,7 @@ import java.util.Scanner;
 /** 
 *
 * @author special
-* @date 2017Äê12ÔÂ20ÈÕ ÉÏÎç10:45:36
+* @date 2017å¹´12æœˆ20æ—¥ ä¸Šåˆ10:45:36
 */
 public class Pro08Improve1 {
 	
@@ -34,8 +34,8 @@ public class Pro08Improve1 {
 			Arrays.sort(students,new Comparator<Student>(){
 				
 				/**
-				 * ×¢Òâ´Ë´¦±È½Ïº¯ÊıµÄĞ´·¨
-				 * ÏÈ³É¼¨ºóÑ§ºÅ
+				 * æ³¨æ„æ­¤å¤„æ¯”è¾ƒå‡½æ•°çš„å†™æ³•
+				 * å…ˆæˆç»©åå­¦å·
 				 */
 				@Override
 				public int compare(Student o1, Student o2) {

@@ -3,11 +3,11 @@ package com.speical.improve;
 import java.util.Scanner;
 
 /** 
-* ÀûÓÃÊı×é½øĞĞÓÅ»¯
+* åˆ©ç”¨æ•°ç»„è¿›è¡Œä¼˜åŒ–
 * 
-* ²»¹ı»¹¿ÉÒÔÓÅ»¯°¡£¡£¡£¡
+* ä¸è¿‡è¿˜å¯ä»¥ä¼˜åŒ–å•Šï¼ï¼ï¼
 * @author special
-* @date 2017Äê12ÔÂ19ÈÕ ÏÂÎç2:26:12
+* @date 2017å¹´12æœˆ19æ—¥ ä¸‹åˆ2:26:12
 */
 public class Pro05Improve1 {
 	private static final int[] ch = new int[26];
