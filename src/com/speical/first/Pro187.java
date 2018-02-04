@@ -6,7 +6,10 @@ import java.util.Scanner;
 * 查找第K小数（同样大的算一样大）
 * 
 * 快排的思想好像不可以
-* 先留着埋个坑
+* 先留着埋个坑(以后有想法了再过来）
+* 
+* ------2018.02.04 下午更新-------
+* 我真是笨到家了，重复的话，我们去重啊！！！
 * @author special
 * @date 2018年2月4日 上午11:21:33
 */
@@ -21,8 +24,8 @@ public class Pro187 {
 	public static int partition(int[] nums, int low, int high){
 		int i = low, j = high, pivot = nums[low];
 		while(i < j){
-			while(i <= high && nums[i++] <= pivot);
-			while(j > low && nums[j--] >= pivot);
+			while(i <= high && nums[i] <= pivot) { i++; }
+			while(j > low && nums[j] >= pivot) { j--; }
 			if(i >= j) { break; }
 			exch(nums, i , j);
 		}
@@ -41,6 +44,22 @@ public class Pro187 {
 		}
 	}
 	
+	public static int removeRepeat(int[] nums) {
+		int length = 0;
+		boolean contains = false;
+		for(int i = 0; i < nums.length; i++) {
+			contains = false;
+			for(int j = 0; j < length; j++) {
+				if(nums[j] == nums[i]) {
+					contains = true;
+					break;
+				}
+			}
+			if(!contains) { nums[length++] = nums[i]; }
+		}
+		return length;
+	}
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner input = new Scanner(System.in);
@@ -50,10 +69,12 @@ public class Pro187 {
 			for(int i = 0; i < n; i++){
 				nums[i] = input.nextInt();
 			}
+			int length = removeRepeat(nums);
 			int k = input.nextInt();
-			getMiniK(k - 1, nums, 0, nums.length - 1);
+			getMiniK(k - 1, nums, 0, length - 1);
 			System.out.println(nums[k - 1]);
 		}
+		input.close();
 	}
 
 }
