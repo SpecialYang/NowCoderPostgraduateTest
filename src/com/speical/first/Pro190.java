@@ -1,7 +1,11 @@
 package com.speical.first;
 
 import java.util.Scanner;
-
+/**
+ * 打牌
+ * @author Special
+ *
+ */
 public class Pro190 {
 	
 	public static boolean compare(String strA, String strB) {
