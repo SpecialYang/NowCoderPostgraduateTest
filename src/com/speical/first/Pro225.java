@@ -8,6 +8,8 @@ import java.util.Scanner;
  * 找位置
  * 
  * 哈希计数的思想
+ * 数组的索引对应key值，然后该索引下的链表存放该key的在字符串中的所有位置
+ * 二维数组也可以
  * @author Special
  * @time 2018/02/11 21:34:57
  */

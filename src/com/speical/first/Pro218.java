@@ -13,13 +13,17 @@ public class Pro218 {
 	
 	public static int convertToInt(String nums) {
 		boolean isPostive = nums.charAt(0) != '-' ? true : false;
-		int num = 0, result = 0;
+		int result = 0;
 		for(int i = 0; i < nums.length(); i++) {
-			num = 0;
-			while(i < nums.length() && nums.charAt(i) >= '0' && nums.charAt(i) <= '9') {
-				num = num * 10 + nums.charAt(i++) - '0';
+			//我想多了，根本不用按部分处理，直接判断是逗号话就跳过，否则乘10加数字就行了
+//			num = 0;
+//			while(i < nums.length() && nums.charAt(i) >= '0' && nums.charAt(i) <= '9') {
+//				num = num * 10 + nums.charAt(i++) - '0';
+//			}
+//			result = result * 1000 + num;
+			if(nums.charAt(i) >= '0' && nums.charAt(i) <= '9') {
+				result = result * 10 + nums.charAt(i) - '0';
 			}
-			result = result * 1000 + num;
 		}
 		return isPostive ? result : -result;
 	}
