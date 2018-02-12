@@ -15,7 +15,7 @@ import java.util.Scanner;
 * @author special
 * @date 2018年1月3日 下午1:53:54
 */
-public class Pro97 {
+public class Pro097 {
 	static final int SIZE = 1000000 + 5;
 	static int[] values = new int[20];
 	static boolean result;

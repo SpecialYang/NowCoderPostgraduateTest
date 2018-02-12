@@ -11,7 +11,7 @@ import java.util.Scanner;
 * @author special
 * @date 2018年1月2日 下午2:50:52
 */
-public class Pro89 {
+public class Pro089 {
 	
 	public static int getNumOfShift(String text, String pattern){
 		int count = 0, index;

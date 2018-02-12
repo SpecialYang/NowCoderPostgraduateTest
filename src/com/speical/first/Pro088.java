@@ -7,7 +7,7 @@ import java.util.Scanner;
 * @author special
 * @date 2018年1月2日 下午2:30:12
 */
-public class Pro88 {
+public class Pro088 {
 	static String decode = "VWXYZABCDEFGHIJKLMNOPQRSTU";
 	
 	public static void main(String[] args) {

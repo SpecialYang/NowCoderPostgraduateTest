@@ -7,7 +7,7 @@ import java.util.Scanner;
 * @author special
 * @date 2018年1月3日 上午11:22:53
 */
-public class Pro95 {
+public class Pro095 {
 	
 	public static int reverse(int num){
 		int result = 0;

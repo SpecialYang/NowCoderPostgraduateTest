@@ -11,7 +11,7 @@ import java.util.Scanner;
 * @author special
 * @date 2018年1月3日 上午11:35:12
 */
-public class Pro96 {
+public class Pro096 {
 	static final int SIZE = 6, MOD = 4;
 	static int startX, startY, endX, endY, minCost;
 	static int[][] values, steps = {{-1,0},{0,1},{1,0},{0,-1}};

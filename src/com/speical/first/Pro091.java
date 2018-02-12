@@ -10,7 +10,7 @@ import java.util.Scanner;
 * @author special
 * @date 2018年1月3日 上午10:03:07
 */
-public class Pro91 {
+public class Pro091 {
 	static final String letters = "AVXSWDFGUHJKNBIOQEARYCQZTZ"; //字母键映射
 	static final String numbers = "9`12345678";  //数字键映射
 	static final Map<Character, Character> punctuation = new HashMap<>(); //符号位的映射

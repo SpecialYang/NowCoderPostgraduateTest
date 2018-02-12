@@ -10,7 +10,7 @@ import java.util.Scanner;
 * @author special
 * @date 2018年1月3日 下午3:36:18
 */
-public class Pro99 {
+public class Pro099 {
 	
 	public static String add(String num1, String num2){
 		StringBuilder sb = new StringBuilder();

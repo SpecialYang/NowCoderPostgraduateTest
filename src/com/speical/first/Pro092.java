@@ -11,7 +11,7 @@ import java.util.Scanner;
 * @author special
 * @date 2018年1月3日 上午10:30:16
 */
-public class Pro92 {
+public class Pro092 {
 	static Map<Integer,Integer> bucket;
 	
 	public static void main(String[] args) {

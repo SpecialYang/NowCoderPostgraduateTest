@@ -12,7 +12,7 @@ import java.util.Scanner;
 * @author special
 * @date 2018年1月3日 下午2:44:16
 */
-public class Pro98 {
+public class Pro098 {
 	public static void draw(String[] contents){
 		if(contents.length == 0) return;
 		String[] pre = {""};  //上次路径

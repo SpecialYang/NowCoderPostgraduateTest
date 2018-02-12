@@ -7,7 +7,7 @@ import java.util.Scanner;
 * @author special
 * @date 2018年1月2日 上午11:10:50
 */
-public class Pro83 {
+public class Pro083 {
 	public static int getNodes(int m, int n){
 		int count = 0, temp = m;
 		int digit = 1;

@@ -15,7 +15,7 @@ import java.util.Scanner;
 * @author special
 * @date 2018年1月2日 下午1:50:54
 */
-public class Pro85 {
+public class Pro085 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

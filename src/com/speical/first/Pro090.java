@@ -10,7 +10,7 @@ import java.util.Scanner;
 * @author special
 * @date 2018年1月2日 下午3:24:01
 */
-public class Pro90 {
+public class Pro090 {
 	static DecimalFormat df = new DecimalFormat("0.00");
 	
 	/**

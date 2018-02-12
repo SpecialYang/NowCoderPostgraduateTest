@@ -13,7 +13,7 @@ import java.util.Scanner;
 * @author special
 * @date 2018年1月2日 上午11:42:57
 */
-public class Pro84 {
+public class Pro084 {
 	static final int SIZE = 8;
 	static int[] result = new int[92];
 	static boolean[][] flag = new boolean[SIZE][SIZE];

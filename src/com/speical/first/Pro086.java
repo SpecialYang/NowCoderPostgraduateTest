@@ -10,7 +10,7 @@ import java.util.Scanner;
 * @author special
 * @date 2018年1月2日 下午1:58:31
 */
-public class Pro86 {
+public class Pro086 {
 	
 	public static String factories(int num1){
 		int[] digit = new int[1000];
